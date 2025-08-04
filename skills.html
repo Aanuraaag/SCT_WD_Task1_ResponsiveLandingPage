@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills - Anurag's Portfolio</title>
+  <link rel="stylesheet" href="skills.css" />
+  <link rel="stylesheet" href="darkmode.css">
+  <!-- AOS Library for Scroll Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  
+  <!-- Ionicons for menu icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <!-- Theme toggle switch somewhere in the page (usually in the navbar) -->
+<div class="theme-toggle">
+  <input type="checkbox" id="darkModeToggle" />
+  <label for="darkModeToggle" class="toggle-label">
+    <span class="toggle-ball"></span>
+  </label>
+</div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html" class="active">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- Theme toggle switch somewhere in the page (usually in the navbar) -->
+
+
+  </nav>
+
+  <!-- Skills Section -->
+  <section class="skills-section">
+    <div class="container">
+      <h1 data-aos="fade-up">My Technical Skills</h1>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons" data-aos="fade-up" data-aos-delay="50">
+        <button data-filter="all" class="filter-btn active">All</button>
+        <button data-filter="frontend" class="filter-btn">Frontend</button>
+        <button data-filter="tools" class="filter-btn">Tools</button>
+      </div>
+
+      <!-- Skill Cards Grid -->
+      <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-card" data-category="frontend">HTML5</div>
+        <div class="skill-card" data-category="frontend">CSS3</div>
+        <div class="skill-card" data-category="frontend">Flexbox & Grid</div>
+        <div class="skill-card" data-category="frontend">Responsive Design</div>
+        <div class="skill-card" data-category="tools">Git & GitHub</div>
+        <div class="skill-card" data-category="frontend">JavaScript (Basics)</div>
+        <div class="skill-card" data-category="tools">Currently Learning: Bootstrap</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p><center>© 2025 Anurag — All Rights Reserved</center></p>
+  </footer>
+
+  <!-- Scroll Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  
+<!-- Scroll Animation Library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Your Custom Script -->
+<script src="skills.js"></script>
+<script src="../js/skills.js"></script>
+<script src="darkmode.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* Skills Section Styling */
+.skills-section {
+  padding: 4rem 1rem;
+  background-color: #f5f7fa;
+  text-align: center;
+}
+
+.skills-section h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.2rem;
+  background-color: #ddd;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.skill-card {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  background: #e8f0fe;
+  color: #1a73e8;
+}
+
+/* Responsive Nav (if not already added) */
+.nav-links {
+  display: flex;
+  font-size: 40px;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links .active {
+  color: #1a73e8;
+}
+/* ===== Dark Theme Overrides for Skills Page ===== */
+body.dark .skills-section {
+  background-color: #121212;
+}
+
+body.dark .skills-section h1 {
+  color: #f0f0f0;
+}
+
+body.dark .filter-btn {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+body.dark .filter-btn:hover,
+body.dark .filter-btn.active {
+  background-color: #4A90E2;
+  color: #fff;
+}
+
+body.dark .skill-card {
+  background: #1e1e1e;
+  color: #f0f0f0;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+body.dark .skill-card:hover {
+  background: #2d3a4f;
+  color: #4A90E2;
+}
+
+body.dark .nav-links {
+  background-color: #1e1e1e;
+}
+
+body.dark .nav-links a {
+  color: #ddd;
+}
+
+body.dark .nav-links .active {
+  color: #4A90E2;
+}

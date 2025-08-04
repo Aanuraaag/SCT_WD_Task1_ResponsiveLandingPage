@@ -1,0 +1,142 @@
+.theme-toggle {
+  position: relative;
+  top: 18px;
+  left: auto; right: 1400px;
+  z-index: 999;
+}
+.theme-toggle input[type="checkbox"] {
+  display: none;
+}
+.toggle-label {
+  width: 60px;
+  height: 30px;
+  background: #ccc;
+  display: block;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.toggle-ball {
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+
+#darkModeToggle:checked + .toggle-label {
+  background: #555;
+}
+
+#darkModeToggle:checked + .toggle-label .toggle-ball {
+  transform: translateX(30px);
+}
+
+body.dark {
+  background-color: #1E1E1E;
+  color: #F0F0F0;
+}
+
+body.dark nav,
+body.dark .nav-links,
+body.dark header,
+body.dark footer {
+  background-color: #2A2A2A;
+}
+
+body.dark .nav-links a,
+body.dark a {
+  color: #F0F0F0;
+}
+
+body.dark .post-item,
+body.dark .skill-card,
+body.dark .card {
+  background-color: #333;
+  color: #F0F0F0;
+}
+
+body.dark .filter-btn {
+  background-color: #555;
+  color: #fff;
+}
+
+body.dark .filter-btn.active,
+body.dark .filter-btn:hover {
+  background-color: #4A90E2;
+}
+/* 🌙 Dark Mode Overrides */
+body.dark {
+  background-color: #121212;
+  color: #F0F0F0;
+}
+
+body.dark nav,
+body.dark header,
+body.dark .section2,
+body.dark .section3,
+body.dark footer {
+  background-color: #1E1E1E;
+}
+
+body.dark .about,
+body.dark .post-item,
+body.dark .f-w-item,
+body.dark .f-w-text,
+body.dark .img-article {
+  background-color: #1A1A1A;
+  color: #F0F0F0;
+}
+
+body.dark .post-item h1,
+body.dark .f-w-item h1 a,
+body.dark .section-p p,
+body.dark .f-w-article,
+body.dark .f-w-text-p p {
+  color: #F0F0F0;
+}
+
+body.dark .down button {
+  background-color: #333;
+  color: #F0F0F0;
+  border: 1px solid #555;
+}
+
+body.dark .recent-posts,
+body.dark .f-w {
+  background-color: transparent;
+}
+
+body.dark a {
+  color: #90CAF9; /* light blue for links */
+}
+
+body.dark hr {
+  border-color: #444;
+}
+/* Default (light mode) */
+.project-card {
+  background-color: #ffffff;
+  color: #1E2A38;
+}
+
+/* Dark mode styles */
+body.dark .project-card {
+  background-color: #1E2A38; /* or a softer dark tone */
+  color: #F0F4F8; /* light text */
+}
+
+body.dark .project-card .button {
+  background-color: #FF6B6B; /* or another vibrant color */
+  color: #fff;
+}
+body.dark .your-class-name {
+  background-color: #2C3E50;
+  color: #E0E0E0;
+}
