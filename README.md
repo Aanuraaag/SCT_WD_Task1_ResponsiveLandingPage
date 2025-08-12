@@ -16,7 +16,7 @@ Responsive_Landing_Page/ ├── index.html ├── style.css ├── scri
 
 ## 📸 Preview
 .
-![screenshot](./img/screenshot.png)  
+![screenshot](screenshot.png)  
 
 ## 💡 What I Learned
 
@@ -53,3 +53,4 @@ Responsive_Landing_Page/ ├── index.html ├── style.css ├── scri
 
 
 5. Push your project again to GitHub
+
