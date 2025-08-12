@@ -15,8 +15,7 @@ A clean, responsive landing page built using HTML, CSS, and JavaScript as part o
 Responsive_Landing_Page/ ├── index.html ├── style.css ├── script.js ├── img/ ├── README.md
 
 ## 📸 Preview
-.
-![screenshot](screenshot.png)  
+screenshot.png  
 
 ## 💡 What I Learned
 
@@ -53,4 +52,5 @@ Responsive_Landing_Page/ ├── index.html ├── style.css ├── scri
 
 
 5. Push your project again to GitHub
+
 
